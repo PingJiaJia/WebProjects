@@ -7,7 +7,21 @@ img { border: none;}
 a { text-decoration: none;}
 a:hover { text-decoration: underline;}
 
-
-
-
 body{ background: url(../img/body_bg.png) repeat-x;}
+
+/*有高的地方尽量设置height*/
+#top{ width: 960px; height: 30px; margin: 0 auto;}
+.top_menu { float: left; }
+.top_menu li { float: left; background: url(../img/top_ico.png) no-repeat right 14px; font-size: 13px; line-height: 30px; 
+padding-right: 18px; padding-left: 14px; }
+.top_menu a { color: #c0c0c0;}
+.top_menu a:hover{ color: #fff; }
+.top_menu .no_dot{ background: none; }
+
+.top_bar{ float: right; }
+.top_bar li{ float: left; height: 30px; color: #fff; font-weight: bold; font-size: 13px; line-height: 30px; }
+.top_bar .phone{ background: url(../img/top_ico.png) no-repeat 4px -16px;padding:0 38px; }     
+.top_bar .help{ background: url(../img/top_ico.png)  no-repeat 0 -46px; padding:0 38px;}
+.top_bar .help a{ color:$fff; }  
+
+.top_bar .space{ margin-right: 12px;}
