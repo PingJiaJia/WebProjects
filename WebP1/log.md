@@ -8,4 +8,5 @@
 
 ### step2
 1.使用PS制作top_ico
-
+2.position:absulate;
+3.浮动
