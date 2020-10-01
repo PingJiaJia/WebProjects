@@ -14,3 +14,7 @@
 ### step3
 1.outline:none
 2.background:none; border:none;
+
+### step4
+1.ctrl+e  合并图层
+  ctrl+j  复合动作,复制+新建

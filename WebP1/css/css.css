@@ -44,3 +44,15 @@ padding-right: 18px; padding-left: 14px; }
 .search .text{ width: 230px; height: 30px; background: none; border: none; font-size: 13px; color: #666;
 position: absolute; left: 20px; top: 0; outline: none;}
 .search .btn{ width: 42px; height: 30px; background: none; border: none; position: absolute; right: 0; top: 0;}
+
+#nav{ width: 960px; /* height: 44px; */  height: 36px; padding-top: 8px;  margin: 0 auto;}
+#nav li{ float: left; height: 28px; margin-right: 2px;}
+#nav a{ float: left; height: 28px; color: #fff;
+ font-size: 15px; line-height: 28px; }
+#nav strong{ float: left; height: 28px; font-weight: none; }
+#nav span{ float: left; height: 28px; 
+padding: 0 16px;}
+
+#nav a:hover,#nav .active a{  background: url(../img/nav_active_bg.png) 0 -56px;  }
+#nav a:hover strong,#nav .active strong{ background: url(../img/nav_active_bg.png) no-repeat;}
+#nav a:hover span,#nav .active span{ background: url(../img/nav_active_bg.png) no-repeat right -28px; }
