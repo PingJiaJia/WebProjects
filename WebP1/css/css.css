@@ -26,14 +26,21 @@ padding-right: 18px; padding-left: 14px; }
 
 .top_bar .space{ margin-right: 12px;}
 
-#header{ width: 960px; height: 100px; margin: 0 auto; position: relative; }
-#shopping{ width: 260px; height: 100px; background: url(../img/shopping_bg.png) no-repeat;padding: 30px 0 0 84px;
+#header{ width: 960px; height: 100px; margin: 0 auto; position: relative; background: url(../img/header_bg.png); }
+#shopping{ width: 260px; height: 100px; background: url(../img/shopping_bg.png) no-repeat; ;
 	position: relative;}
-#shopping p{ color: #F7F7F7; font-size: 20px; font-size: 20px;  font-family: arial;}
+#shopping p{ color: #F7F7F7; font-size: 20px; font-size: 20px;  font-family: arial;padding: 30px 0 0 84px }
 #shopping a{ display: block; width: 114px; height: 23px; background: url(../img/shopping_bg.png) no-repeat 0 -100px;
 	position: absolute;  top: 63px;  left: 104px;    font-size: 15px;  color: #ffc200;  text-decoration: none;
 	font-weight: bold;   text-align: center;   line-height: 23px;
  }
- #shopping a:hover{ color: #ffe388;}
+#shopping a:hover{ color: #ffe388;}
 
 #header h1{width: 238px; position: absolute; top:0; left: 50%; margin-left: -119px; }
+
+#header .search{ top: 32px; right: 0; }
+
+.search{ width: 292px; height: 30px; background: url(../img/search.png) no-repeat; position: absolute;}
+.search .text{ width: 230px; height: 30px; background: none; border: none; font-size: 13px; color: #666;
+position: absolute; left: 20px; top: 0; outline: none;}
+.search .btn{ width: 42px; height: 30px; background: none; border: none; position: absolute; right: 0; top: 0;}

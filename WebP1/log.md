@@ -10,3 +10,7 @@
 1.使用PS制作top_ico
 2.position:absulate;
 3.浮动
+
+### step3
+1.outline:none
+2.background:none; border:none;
