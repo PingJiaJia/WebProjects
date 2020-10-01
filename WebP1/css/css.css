@@ -56,3 +56,8 @@ padding: 0 16px;}
 #nav a:hover,#nav .active a{  background: url(../img/nav_active_bg.png) 0 -56px;  }
 #nav a:hover strong,#nav .active strong{ background: url(../img/nav_active_bg.png) no-repeat;}
 #nav a:hover span,#nav .active span{ background: url(../img/nav_active_bg.png) no-repeat right -28px; }
+
+
+#content{ width: 1000px; margin:24px auto 0; background: url(../img/content_bg.png) repeat-y -1000px 0;}
+#content_top{ width: 1000px; background: url(../img/content_bg.png) no-repeat;}
+#content_bottom{ width: 1000px; background: url(../img/content_bg.png) no-repeat -2000px bottom;}
