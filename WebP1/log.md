@@ -25,4 +25,5 @@
    横切下来的图片竖着放生成new picture，y控制
   - 竖切图片
    竖切下来的图片横着放生成new picture,x控制
-	
+2.不透明度
+	filter: alpha(opacity:80); opacity: 0.8;
