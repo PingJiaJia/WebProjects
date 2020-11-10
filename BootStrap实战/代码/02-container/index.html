@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>container</title>
+		<style>
+			body{
+				padding: 0; margin: 0; list-style: none;
+			}
+			.container{
+				height: 30px;
+				margin: 0 auto;
+				background: greenyellow;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			
+		</div>
+		<script type="text/javascript">
+			window.addEventListener("load",function(){
+				//1.获取常量
+				let container=document.querySelector(".container");
+				let clientW=0;
+				resize();
+				//2.监听窗口的大小变化 
+				window.addEventListener("resize",resize);
+				function resize(){
+					clientW=window.innerWidth;
+					console.log(clientW);
+					if(clientW>=1200){
+						container.style.width="1170px";	
+					}else if(clientW>=992){
+						container.style.width="970px";	
+					}else if(clientW>=768){
+						container.style.width="750px";	
+					}else{
+						container.style.width="100%";
+					}
+				}
+				
+			})
+		</script>
+	</body>
+</html>
