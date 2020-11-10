@@ -1,5 +1,62 @@
 /* 通用样式 */
 body{	 font-family: "arial, helvetica, sans-serif";	color: #000000;  }
+.btn-register { 
+  color: #FFFFFF; 
+  background-color: #0AB4F7; 
+  border-color: #F4F4F4; 
+} 
+ 
+.btn-register:hover, 
+.btn-register:focus, 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  color: #FFFFFF; 
+  background-color: #086DF2; 
+  border-color: #F4F4F4; 
+} 
+ 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  background-image: none; 
+} 
+ 
+.btn-register.disabled, 
+.btn-register[disabled], 
+fieldset[disabled] .btn-register, 
+.btn-register.disabled:hover, 
+.btn-register[disabled]:hover, 
+fieldset[disabled] .btn-register:hover, 
+.btn-register.disabled:focus, 
+.btn-register[disabled]:focus, 
+fieldset[disabled] .btn-register:focus, 
+.btn-register.disabled:active, 
+.btn-register[disabled]:active, 
+fieldset[disabled] .btn-register:active, 
+.btn-register.disabled.active, 
+.btn-register[disabled].active, 
+fieldset[disabled] .btn-register.active { 
+  background-color: #0AB4F7; 
+  border-color: #F4F4F4; 
+} 
+ 
+.btn-register .badge { 
+  color: #0AB4F7; 
+  background-color: #FFFFFF; 
+}
+@font-face {
+	font-family:lk;
+	 src: url('../fonts/lk.eot') format('embedded-opentype'),
+	    url('../fonts/lk.svg') format('svg'),
+	    url('../fonts/lk.ttf') format('truetype'),
+	    url('../fonts/lk.woff') format('woff');
+}
+[class^="icon-"],[class*=" icon-"]{
+    font-family: lk;
+    font-style: normal;
+}
+
 
 /* 头部样式 */
 #lk_header{
@@ -24,3 +81,6 @@ body{	 font-family: "arial, helvetica, sans-serif";	color: #000000;  }
 #lk_header .top_bar .container .row .top-bar-1 a:hover img{
 	display: block;
 }
+
+.icon-phone::before{ content: '\e958'; font-size: 13px;}
+.icon-tel::before{ content: '\e942'; font-size: 13px;}
