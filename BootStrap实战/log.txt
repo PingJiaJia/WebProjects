@@ -8,3 +8,5 @@
 8.如何生成字体图标？
 	从醉牛前端http://f2er.club/
 9.[class^="icon-"],[class*=" icon-"]
+10.通过Bootstrap里面的导航组件 定制化导航栏
+11.background-color: transparent;
