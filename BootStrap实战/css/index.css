@@ -86,7 +86,7 @@ fieldset[disabled] .btn-register.active {
 .icon-tel::before{ content: '\e942'; font-size: 13px;}
 
 
-#lk_header .navbar-lk{ background: #fff; }
+#lk_header .navbar-lk{ background: #fff;  margin-bottom: 0;}
 #lk_header .navbar-lk  .navbar-brand{ height: 70px; padding: 10px 15px;}
 #lk_header .navbar-lk  #lk_nav a{ height: 70px; line-height: 40px;}
 #lk_header .navbar-lk .navbar-nav li.active a,

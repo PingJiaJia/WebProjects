@@ -16,10 +16,19 @@ $(function(){
 			let src=isShowBigImg?$(item).data("lg-img"):$(item).data("sm-img");
 			let imgUrl='url("'+src+'")';
 			
-			//设置背景
+			//1.4.2设置背景
 			$(item).css({
 				backgroundImage:imgUrl
 			})
+			
+			//1.4.3 设置img标签
+			if(!isShowBigImg){
+				let $img="<img src='"+src+"'>";
+				$(item).empty().append($img);
+			}else{
+				$(item).empty();
+			}
+			
 		})
 		
 	})
