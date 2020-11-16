@@ -10,3 +10,8 @@
 9.[class^="icon-"],[class*=" icon-"]
 10.通过Bootstrap里面的导航组件 定制化导航栏
 11.background-color: transparent;
+12.轮播图carousel适应问题
+	-定位 
+	-设置为背景（background-size,background:no-repeat，大小图之间的转换）
+	数据传到Jquery里面去，使用data方法去做
+13.let $allItem=$("#lk_carousel .item");
