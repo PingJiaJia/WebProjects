@@ -109,3 +109,10 @@ fieldset[disabled] .btn-register.active {
 		height: 410px;
 	}
 }
+
+/* 关于我们 */
+#lk_about{
+	padding: 20px 0;
+}
+#lk_about .title{ margin-bottom: 10px;}
+#lk_about p{ font-size: 15px; line-height: 29px;}

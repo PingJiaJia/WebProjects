@@ -15,3 +15,13 @@
 	-设置为背景（background-size,background:no-repeat，大小图之间的转换）
 	数据传到Jquery里面去，使用data方法去做
 13.let $allItem=$("#lk_carousel .item");
+   $allItem与allItem之间的区别？	
+14.carousel控制速度，请参考Bootstrap文档
+15.关于我们的flex布局
+#lk_about .title, #lk_hot .title, #lk_link .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
