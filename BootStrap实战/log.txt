@@ -25,3 +25,9 @@
     align-items: center;
     padding-bottom: 15px;
 }
+16.标签页
+data-toggle="tab"
+	选项卡：
+	把Bootstrap文档内容粘贴 至 主代码区，修改英文注释；
+	改href，浮动用pull-right
+
