@@ -30,4 +30,5 @@ data-toggle="tab"
 	选项卡：
 	把Bootstrap文档内容粘贴 至 主代码区，修改英文注释；
 	改href，浮动用pull-right
-
+17.Bootstrap 徽章（badge)
+	重点是选项卡  展示的内容  的布局
