@@ -129,6 +129,23 @@ fieldset[disabled] .btn-register.active {
 #lk_product .nav li.active a{
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid #0AB4F7;
-    color: #000;
+    border-bottom: 2px solid #0AB4F7;   
+}
+
+#lk_product .tab-content{
+	padding-top: 20px;
+}
+#lk_product .pd_left{ padding-top: 40px;}
+#lk_product #pd_one_1{ margin:15px 0;}
+#lk_product #pd_one_2{ background: transparent;}
+#pd_one_4{
+    margin: 15px 0;
+}
+
+#lk_product #pd_two_1{
+    padding: 100px 0;
+}
+
+#lk_product #pd_two_1 h1{
+    margin-bottom: 15px;
 }
