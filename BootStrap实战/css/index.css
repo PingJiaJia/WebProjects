@@ -159,3 +159,9 @@ fieldset[disabled] .btn-register.active {
 #lk_hot .media-left{ width: 20%;}
 #lk_hot .media-body{ width: 60%;vertical-align: middle;}
 #lk_hot .media-right{ width: 20%; text-align: left; font-size: 16px; vertical-align: middle;} 
+
+
+/* 友情链接 */
+#lk_link{ }
+#lk_link .logos{ list-style: none; text-align: center; }
+#lk_link .logos li{ display: inline-block; padding: 20px 30px;}
