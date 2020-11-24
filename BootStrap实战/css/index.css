@@ -58,6 +58,11 @@ fieldset[disabled] .btn-register.active {
 }
 
 
+#lk_about,#lk_hot,#lk_link{
+	padding: 20px 0;
+}
+#lk_about .title,#lk_hot .title,#lk_link .title{ margin-bottom: 10px;}
+
 /* 头部样式 */
 #lk_header{
 	
@@ -111,10 +116,7 @@ fieldset[disabled] .btn-register.active {
 }
 
 /* 关于我们 */
-#lk_about{
-	padding: 20px 0;
-}
-#lk_about .title{ margin-bottom: 10px;}
+
 #lk_about p{ font-size: 15px; line-height: 29px;}
 
 
@@ -149,3 +151,11 @@ fieldset[disabled] .btn-register.active {
 #lk_product #pd_two_1 h1{
     margin-bottom: 15px;
 }
+
+
+/* 热门课程 */
+#lk_hot{ }
+#lk_hot .lesson{ padding: 20px 10px;}
+#lk_hot .media-left{ width: 20%;}
+#lk_hot .media-body{ width: 60%;vertical-align: middle;}
+#lk_hot .media-right{ width: 20%; text-align: left; font-size: 16px; vertical-align: middle;} 
